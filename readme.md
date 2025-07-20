@@ -35,7 +35,7 @@ This is a **Human Capital Management System** built with **ASP.NET Core MVC**, *
 
 ```bash
 git clone https://github.com/ivoiliev0394/HUMAN-CAPITAL-MANAGEMENT-APPLICATION_UKG.git
-cd YOUR-REPO
+cd HUMAN-CAPITAL-MANAGEMENT-APPLICATION_UKG
 ```
 
 ### 2. Configure Database
@@ -44,7 +44,7 @@ cd YOUR-REPO
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=YOUR_SERVER;Database=EmployeePortalDB;Trusted_Connection=True;TrustServerCertificate=True;"
+  "DefaultConnection": "Server=YOUR_SERVER;Database=HumanCapitalManagementAppDatabase;Trusted_Connection=True;TrustServerCertificate=True;"
 }
 ```
 
