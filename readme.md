@@ -104,7 +104,7 @@ Default passwords are seeded in the database along with Employee data.
 
 ## 📊 Database Schema
 
-![Database Schema](./uml-diagram.png)
+![Database Schema](./Schema.png)
 
 ---
 
