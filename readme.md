@@ -34,7 +34,7 @@ This is a **Human Capital Management System** built with **ASP.NET Core MVC**, *
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+git clone https://github.com/ivoiliev0394/HUMAN-CAPITAL-MANAGEMENT-APPLICATION_UKG.git
 cd YOUR-REPO
 ```
 
