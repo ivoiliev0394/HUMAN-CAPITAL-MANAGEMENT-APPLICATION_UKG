@@ -1,0 +1,93 @@
+﻿@{
+    // Set the page title in the browser tab
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Inline CSS for styling the home page -->
+<style>
+    /* Full-screen background with gradient */
+    html, body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    }
+
+    /* Center the content both vertically and horizontally */
+    .centered-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        text-align: center;
+    }
+
+    /* White box with rounded corners and shadow */
+    .content-box {
+        background-color: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        max-width: 800px;
+        width: 90%;
+    }
+
+    /* Title text styling */
+    .title {
+        font-size: 3rem;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    /* Description text styling */
+    .description {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 30px;
+    }
+
+    /* Main button styling */
+    .btn-main {
+        background-color: #369a91;
+        border-color: cadetblue;
+        font-size: 1.2rem;
+        padding: 12px 30px;
+        border-radius: 30px;
+    }
+
+        /* Hover effect for button */
+        .btn-main:hover {
+            background-color: #4ecdc4;
+            border-color: #4ecdc4;
+        }
+</style>
+
+<!-- Main centered box -->
+<div class="centered-container">
+    <div class="content-box">
+        <!-- Application title -->
+        <h1 class="title">Human Capital Management<br />Application</h1>
+
+        <!-- Application description -->
+        <p class="description">
+            Manage employees easily with a role-based access system.
+        </p>
+
+        <!-- Role-based navigation buttons -->
+        @if (User.IsInRole("Manager") || User.IsInRole("HR Admin"))
+        {
+            <!-- Managers and HR Admin see the Employee List -->
+            <a asp-controller="Employee" asp-action="List" class="btn btn-primary btn-main">Employees List</a>
+        }
+        else if (User.IsInRole("Employee"))
+        {
+            <!-- Employees see their profile -->
+            <a asp-controller="Employee" asp-action="Details" class="btn btn-primary btn-main">Profile Information</a>
+        }
+        else
+        {
+            <!-- Guests see login button -->
+            <a asp-controller="Account" asp-action="Login" class="btn btn-primary btn-main">Log in</a>
+        }
+    </div>
+</div>

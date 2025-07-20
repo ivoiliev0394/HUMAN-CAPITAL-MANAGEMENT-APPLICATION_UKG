@@ -1,0 +1,75 @@
+/* _content/HumanCapitalManagementApp/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* Style for the application logo in the navbar */
+a.navbar-brand[b-r054m98umx] {
+    white-space: normal; /* Allows text to wrap normally */
+    text-align: center; /* Centers the text inside the link */
+    word-break: break-all; /* Break long words if necessary */
+}
+
+/* General link color */
+a[b-r054m98umx] {
+    color: #0077cc; /* Sets link color to a blue tone */
+}
+
+/* Navigation link styling inside the navbar */
+.navbar-nav .nav-link[b-r054m98umx] {
+    color: #ffffff; /* White text color for navigation links */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover animation */
+    padding: 8px 15px; /* Padding around the link */
+    border-radius: 5px; /* Rounded corners */
+}
+
+    /* Hover effect for navigation links */
+    .navbar-nav .nav-link:hover[b-r054m98umx] {
+        background-color: rgba(255, 255, 255, 0.2); /* Light white background on hover */
+        color: #ffffff; /* Keep text white on hover */
+        text-decoration: none; /* Remove underline on hover */
+    }
+
+/* Primary button customization */
+.btn-primary[b-r054m98umx] {
+    color: #fff; /* White text */
+    background-color: #4ecdc4; /* Turquoise background */
+    border-color: #4ecdc4; /* Same color border */
+}
+
+/* Active state for Bootstrap pills navigation */
+.nav-pills .nav-link.active[b-r054m98umx],
+.nav-pills .show > .nav-link[b-r054m98umx] {
+    color: #fff; /* White text */
+    background-color: #1b6ec2; /* Strong blue background */
+    border-color: #1861ac; /* Darker blue border */
+}
+
+/* Simple top border */
+.border-top[b-r054m98umx] {
+    border-top: 1px solid #e5e5e5; /* Light grey top border */
+}
+
+/* Simple bottom border */
+.border-bottom[b-r054m98umx] {
+    border-bottom: 1px solid #e5e5e5; /* Light grey bottom border */
+}
+
+/* Small box shadow effect */
+.box-shadow[b-r054m98umx] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); /* Subtle shadow */
+}
+
+/* Cookie accept button styling */
+button.accept-policy[b-r054m98umx] {
+    font-size: 1rem; /* Normal font size */
+    line-height: inherit; /* Inherit line height from parent */
+}
+
+/* Footer styling for sticking it to the bottom */
+.footer[b-r054m98umx] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Footer height */
+}

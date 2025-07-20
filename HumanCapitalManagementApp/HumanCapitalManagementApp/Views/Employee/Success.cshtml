@@ -1,0 +1,92 @@
+﻿@model Employee
+@{
+    // Set the page title in the browser tab
+    ViewData["Title"] = "Employee Created Successfully";
+}
+
+<!-- Main container for centered card layout -->
+<div class="container mt-1">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4 border rounded">
+
+                    <!-- Success message header -->
+                    <div class="text-center mb-4">
+                        <h2 class="text-success mb-3">
+                            <i class="bi bi-check-circle-fill"></i> Employee Created Successfully!
+                        </h2>
+
+                        <!-- Welcome message with employee name and department -->
+                        <p class="text-muted">
+                            Welcome <strong>@Model.FullName</strong>! We are excited to have you join the
+                            <strong>@Model.Department?.Name</strong> department. Below are the details of the newly created employee:
+                        </p>
+                    </div>
+
+                    <!-- Employee details displayed in a table -->
+                    <div class="table-responsive">
+                        <table class="table table-borderless">
+                            <tbody>
+                                <!-- Email -->
+                                <tr>
+                                    <th class="text-muted text-start" style="width: 30%;">📧 Email:</th>
+                                    <td class="fw-bold text-dark text-start">@Model.Email</td>
+                                </tr>
+                                <!-- Designation -->
+                                <tr>
+                                    <th class="text-muted text-start">💼 Designation:</th>
+                                    <td class="fw-bold text-dark text-start">@Model.Designation?.Name</td>
+                                </tr>
+                                <!-- Department -->
+                                <tr>
+                                    <th class="text-muted text-start">🏢 Department:</th>
+                                    <td class="fw-bold text-dark text-start">@Model.Department?.Name</td>
+                                </tr>
+                                <!-- Hire Date -->
+                                <tr>
+                                    <th class="text-muted text-start">🗓️ Hire Date:</th>
+                                    <td class="fw-bold text-dark text-start">@Model.HireDate.ToShortDateString()</td>
+                                </tr>
+                                <!-- Date of Birth -->
+                                <tr>
+                                    <th class="text-muted text-start">🎂 Date of Birth:</th>
+                                    <td class="fw-bold text-dark text-start">@Model.DateOfBirth.ToShortDateString()</td>
+                                </tr>
+                                <!-- Employee Type -->
+                                <tr>
+                                    <th class="text-muted text-start">👔 Employee Type:</th>
+                                    <td class="fw-bold text-dark text-start">@Model.EmployeeType?.Name</td>
+                                </tr>
+                                <!-- Gender -->
+                                <tr>
+                                    <th class="text-muted text-start">⚧ Gender:</th>
+                                    <td class="fw-bold text-dark text-start">@Model.Gender</td>
+                                </tr>
+                                <!-- Salary -->
+                                <tr>
+                                    <th class="text-muted text-start">💰 Salary:</th>
+                                    <td class="fw-bold text-dark text-start">$@Model.Salary.ToString("N2")</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Action buttons -->
+                    <div class="text-center mt-4">
+                        <!-- Button to create another employee -->
+                        <a class="btn btn-success btn-lg me-3" asp-action="Create">
+                            <i class="bi bi-person-plus-fill"></i> Create Another Employee
+                        </a>
+
+                        <!-- Button to go back to employee list -->
+                        <a class="btn btn-primary btn-lg" asp-action="List">
+                            <i class="bi bi-arrow-left-circle-fill"></i> Back to Employee List
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

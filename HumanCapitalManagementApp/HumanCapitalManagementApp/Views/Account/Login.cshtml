@@ -1,0 +1,84 @@
+﻿@using HumanCapitalManagementApp.ViewModels
+@model LoginViewModel
+
+<!-- Inline CSS styling for page layout and design -->
+<style>
+    /* Basic full-height layout with gradient background */
+    html, body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    }
+
+    /* Flexbox to center the login form both vertically and horizontally */
+    .centered-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        text-align: center;
+    }
+
+    /* Styling for the main login box */
+    .content-box {
+        background-color: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        max-width: 600px;
+        width: 90%;
+    }
+
+    .title {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 30px;
+    }
+
+    /* Main button styling */
+    .btn-main {
+        background-color: #369a91;
+        border-color: cadetblue;
+        font-size: 1.2rem;
+        padding: 12px 30px;
+        border-radius: 30px;
+        color: #ffffff;
+    }
+
+        /* Hover effect for the button */
+        .btn-main:hover {
+            color: #ffffff;
+            background-color: #4ecdc4;
+            border-color: #4ecdc4;
+        }
+</style>
+
+<!-- Main centered container -->
+<div class="centered-container">
+    <div class="content-box">
+        <!-- Title of the form -->
+        <h4 class="title">Enter your email and password</h4>
+
+        <!-- Login form using Razor model binding -->
+        <form class="description" asp-action="Login" method="post">
+            <!-- Email input -->
+            <div>Email: <input asp-for="Email" /></div>
+
+            <!-- Password input -->
+            <div>Password: <input asp-for="Password" type="password" /></div>
+
+            <!-- Remember Me checkbox -->
+            <div><input asp-for="RememberMe" /> Remember Me</div>
+
+            <!-- Submit button -->
+            <button class="btn-main" type="submit">Login</button>
+        </form>
+    </div>
+</div>

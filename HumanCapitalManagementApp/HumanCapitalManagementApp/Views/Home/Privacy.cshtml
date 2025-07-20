@@ -1,0 +1,82 @@
+﻿@{
+    // Set the page title
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<!-- Inline CSS for simple page design -->
+<style>
+    /* Full-screen gradient background */
+    html, body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    }
+
+    /* Container to center content vertically and horizontally */
+    .centered-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        text-align: center;
+    }
+
+    /* White content box with shadow */
+    .content-box {
+        background-color: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        max-width: 600px;
+        width: 90%;
+    }
+
+    /* Title styling */
+    .title {
+        font-size: 3rem;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    /* Description text styling */
+    .description {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 30px;
+    }
+
+    /* Main button styling */
+    .btn-main {
+        background-color: #369a91;
+        border-color: cadetblue;
+        font-size: 1.2rem;
+        padding: 12px 30px;
+        border-radius: 30px;
+    }
+
+        /* Hover effect for the main button */
+        .btn-main:hover {
+            background-color: #4ecdc4;
+            border-color: #4ecdc4;
+        }
+</style>
+
+<!-- Main centered content section -->
+<div class="centered-container">
+    <div class="content-box">
+
+        <!-- Page title dynamically rendered -->
+        <h1 class="title">@ViewData["Title"]</h1>
+
+        <!-- Privacy notice with a GitHub profile link -->
+        <p class="description">
+            All rights reserved by
+            <a href="https://github.com/ivoiliev0394">https://github.com/ivoiliev0394</a>
+        </p>
+
+        <!-- Button to navigate back to Home page -->
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary btn-main">Home</a>
+
+    </div>
+</div>

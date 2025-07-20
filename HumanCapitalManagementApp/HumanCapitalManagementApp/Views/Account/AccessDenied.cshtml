@@ -1,0 +1,13 @@
+﻿@{
+    // Setting the page title for the browser tab
+    ViewData["Title"] = "Access Denied";
+}
+
+<!-- Heading with a red warning text and emoji -->
+<h2 class="text-danger">🚫 Access Denied</h2>
+
+<!-- Explanation message for the user -->
+<p class="text-muted">You do not have permission to access this resource.</p>
+
+<!-- Button that redirects the user back to the Home page -->
+<a asp-controller="Home" asp-action="Index" class="btn btn-primary">Return Home</a>

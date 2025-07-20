@@ -1,0 +1,115 @@
+﻿@using System.Globalization
+@model Employee
+
+@{
+    // Set the page title
+    ViewData["Title"] = "Employee Details";
+}
+
+<!-- Centered card layout to display employee details -->
+<div class="container mt-1">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+            <div class="card shadow-sm border rounded">
+
+                <!-- Card Header: Displays the employee's name and ID -->
+                <div class="card-header bg-primary text-white text-center py-3">
+                    <h2 class="mb-0">
+                        <i class="bi bi-person-circle me-2"></i> @Model.FullName
+                    </h2>
+                    <small class="fst-italic">
+                        Employee ID: <span class="fw-semibold">@Model.Id</span>
+                    </small>
+                </div>
+
+                <!-- Card Body: Main details section -->
+                <div class="card-body p-4">
+                    <div class="table-responsive">
+                        <table class="table table-borderless mb-0">
+                            <tbody>
+                                <!-- Email with clickable mailto link -->
+                                <tr>
+                                    <th class="text-muted" style="width: 30%;">📧 Email</th>
+                                    <td>
+                                        <a href="mailto:@Model.Email" class="text-decoration-none fw-semibold text-primary">
+                                            @Model.Email
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <!-- Designation -->
+                                <tr>
+                                    <th class="text-muted">💼 Designation</th>
+                                    <td class="fw-semibold">@Model.Designation?.Name</td>
+                                </tr>
+
+                                <!-- Department -->
+                                <tr>
+                                    <th class="text-muted">🏢 Department</th>
+                                    <td class="fw-semibold">@Model.Department?.Name</td>
+                                </tr>
+
+                                <!-- Hire Date formatted -->
+                                <tr>
+                                    <th class="text-muted">🗓️ Hire Date</th>
+                                    <td class="fw-semibold">
+                                        @Model.HireDate.ToString("MMMM dd, yyyy", CultureInfo.InvariantCulture)
+                                    </td>
+                                </tr>
+
+                                <!-- Date of Birth formatted -->
+                                <tr>
+                                    <th class="text-muted">🎂 Date of Birth</th>
+                                    <td class="fw-semibold">
+                                        @Model.DateOfBirth.ToString("MMMM dd, yyyy", CultureInfo.InvariantCulture)
+                                    </td>
+                                </tr>
+
+                                <!-- Employee Type -->
+                                <tr>
+                                    <th class="text-muted">👔 Employee Type</th>
+                                    <td class="fw-semibold">@Model.EmployeeType?.Name</td>
+                                </tr>
+
+                                <!-- Gender -->
+                                <tr>
+                                    <th class="text-muted">⚧ Gender</th>
+                                    <td class="fw-semibold">@Model.Gender</td>
+                                </tr>
+
+                                <!-- Salary formatted -->
+                                <tr>
+                                    <th class="text-muted">💰 Salary</th>
+                                    <td class="fw-semibold">$@Model.Salary.ToString("N2")</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Action buttons: Only shown to users who are not in the 'Employee' role -->
+                    <div class="d-flex justify-content-center gap-3 mt-4">
+                        @if (!User.IsInRole("Employee"))
+                        {
+                            <!-- Update Button -->
+                            <a class="btn btn-success btn-lg px-4 rounded-pill shadow-sm" asp-action="Update" asp-route-id="@Model.Id">
+                                <i class="bi bi-pencil-fill me-2"></i> Update
+                            </a>
+
+                            <!-- Delete Button -->
+                            <a class="btn btn-danger btn-lg px-4 rounded-pill shadow-sm" asp-action="Delete" asp-route-id="@Model.Id">
+                                <i class="bi bi-trash-fill me-2"></i> Delete
+                            </a>
+
+                            <!-- Back to List Button -->
+                            <a class="btn btn-info btn-lg px-4 rounded-pill shadow-sm text-white" asp-action="List">
+                                <i class="bi bi-arrow-left-circle-fill me-2"></i> Back to List
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
