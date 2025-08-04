@@ -65,12 +65,15 @@ namespace HumanCapitalManagementApp.Services
         // Retrieve single employee by ID, including relations
         public async Task<Employee?> GetEmployeeByIdAsync(int id)
         {
-            return await _context.Employees
+            var employee = await _context.Employees
                 .Include(e => e.Department)
                 .Include(e => e.Designation)
                 .Include(e => e.EmployeeType)
                 .AsNoTracking()
                 .FirstOrDefaultAsync(e => e.Id == id);
+
+            return employee;
+                
         }
 
         // Create a new employee record in the database

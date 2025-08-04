@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using IbanNet.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -73,6 +74,25 @@ namespace HumanCapitalManagementApp.Models
         [Range(0, double.MaxValue, ErrorMessage = "Salary must be a positive number")]
         [Column(TypeName = "decimal(18,2)")]
         public decimal Salary { get; set; }
+
+        // Country where the employee is located (e.g., "Bulgaria")
+        [Required(ErrorMessage = "Country is required")]
+        [StringLength(50, ErrorMessage = "Country cannot exceed 50 characters")]
+        public string Country { get; set; } = null!;
+
+        // ISO 3166-1 alpha-2 country code (e.g., "bg" for Bulgaria)
+        [Required(ErrorMessage = "Country Code is required")]
+        [StringLength(2, ErrorMessage = "Country Code must be 2 characters")]
+        [RegularExpression("^[a-z]{2}$", ErrorMessage = "Country Code must be in lowercase, two-letter format (e.g., 'bg')")]
+        public string CountryCode { get; set; } = null!;
+
+        // Required field for storing the Encrypted IBAN (International Bank Account Number)
+        [Required]
+        [Iban]
+        [MaxLength(256)]
+        public string EncryptedIBAN { get; set; }
+
+
     }
 }
 

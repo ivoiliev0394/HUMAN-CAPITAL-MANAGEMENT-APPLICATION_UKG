@@ -17,6 +17,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Register custom EmployeeService as Scoped (per HTTP request)
 builder.Services.AddScoped<EmployeeService>();
 
+// Register WorkingDaysService with built-in HttpClient factory
+// This allows the service to perform HTTP requests to external APIs (e.g., API Ninjas)
+builder.Services.AddHttpClient<WorkingDaysService>();
+
 // Configure ASP.NET Core Identity for user authentication and authorization
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>() // Use EF Core for Identity stores

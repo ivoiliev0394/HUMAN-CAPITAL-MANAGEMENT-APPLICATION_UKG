@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "cdlt/F51B8E=",
+  "dgSpecHash": "Qo7FBPg63Fc=",
   "success": true,
-  "projectFilePath": "D:\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj",
+  "projectFilePath": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iwail\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\iwail\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\iwail\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\iwail\\.nuget\\packages\\ibannet\\5.18.0\\ibannet.5.18.0.nupkg.sha512",
+    "C:\\Users\\iwail\\.nuget\\packages\\ibannet.dataannotations\\5.18.0\\ibannet.dataannotations.5.18.0.nupkg.sha512",
     "C:\\Users\\iwail\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",
     "C:\\Users\\iwail\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\iwail\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.3.0\\microsoft.aspnetcore.authentication.cookies.2.3.0.nupkg.sha512",

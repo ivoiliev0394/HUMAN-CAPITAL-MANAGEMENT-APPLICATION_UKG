@@ -16,7 +16,21 @@ html {
   position: relative;
   min-height: 100%;
 }
-
 body {
   margin-bottom: 60px;
+}
+
+/* Full-screen background with gradient */
+html, body {
+    max-height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+}
+
+.table td,
+.table th {
+    vertical-align: middle !important;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }

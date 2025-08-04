@@ -17,71 +17,71 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HumanCapitalManagementApp
 build_property.RootNamespace = HumanCapitalManagementApp
-build_property.ProjectDir = D:\HumanCapitalManagementApp\HumanCapitalManagementApp\
+build_property.ProjectDir = C:\Users\iwail\Desktop\HumanCapitalManagementApp\HumanCapitalManagementApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\HumanCapitalManagementApp\HumanCapitalManagementApp
+build_property.MSBuildProjectDirectory = C:\Users\iwail\Desktop\HumanCapitalManagementApp\HumanCapitalManagementApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Account/AccessDenied.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Account/Login.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/Create.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/Delete.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/Details.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/List.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/Success.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/Update.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Employee/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Home/Index.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Home/Privacy.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Shared/Error.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/_ViewImports.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/_ViewStart.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Shared/_Layout.cshtml]
+[C:/Users/iwail/Desktop/HumanCapitalManagementApp/HumanCapitalManagementApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-r054m98umx

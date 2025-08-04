@@ -1,66 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\",
+  "WorkspaceRootPath": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\employee\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\employee\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\employee\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\employee\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\viewmodels\\employeecreateupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\viewmodels\\employeecreateupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\humancapitalmanagementapp\\humancapitalmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\employee\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\employee\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\viewmodels\\validation\\ibanvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\viewmodels\\validation\\ibanvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\viewmodels\\employeecreateupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\viewmodels\\employeecreateupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\wwwroot\\css\\custom-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\wwwroot\\css\\custom-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\utilities\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\utilities\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|c:\\users\\iwail\\desktop\\ukg\\humancapitalmanagementapp\\humancapitalmanagementapp\\humancapitalmanagementapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3880A1EB-4CBE-4D08-9D7D-C0C4AE56D7D0}|HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj|solutionrelative:humancapitalmanagementapp\\humancapitalmanagementapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,202 +66,179 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\List.cshtml",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Employee\\List.cshtml",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\List.cshtml",
+              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Employee\\List.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAhwJ0AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T15:23:24.98Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Delete.cshtml",
               "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Employee\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Delete.cshtml",
               "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Employee\\Delete.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAF8AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-20T10:39:37.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\List.cshtml",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Employee\\List.cshtml",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\List.cshtml",
-              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Employee\\List.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-20T10:39:34.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Success.cshtml",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Success.cshtml",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Employee\\Success.cshtml",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Success.cshtml",
-              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Employee\\Success.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-20T10:39:24.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T15:18:04.86Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Update.cshtml",
               "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Employee\\Update.cshtml",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Update.cshtml",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Update.cshtml",
               "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Employee\\Update.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAKwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-20T10:39:15.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-20T10:37:12.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccessDenied.cshtml",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Account\\AccessDenied.cshtml",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Account\\AccessDenied.cshtml",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Account\\AccessDenied.cshtml",
-              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Account\\AccessDenied.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-20T10:37:12.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeeCreateUpdateViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\ViewModels\\EmployeeCreateUpdateViewModel.cs",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\ViewModels\\EmployeeCreateUpdateViewModel.cs",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\ViewModels\\EmployeeCreateUpdateViewModel.cs",
-              "RelativeToolTip": "HumanCapitalManagementApp\\ViewModels\\EmployeeCreateUpdateViewModel.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T10:36:32.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "HumanCapitalManagementApp\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T10:36:30.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Services\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "HumanCapitalManagementApp\\Services\\EmployeeService.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T10:36:01.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Details.cshtml",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Employee\\Details.cshtml",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Details.cshtml",
-              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Employee\\Details.cshtml",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAACkAAAB3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-20T10:34:32.816Z",
+              "WhenOpened": "2025-08-04T15:11:52.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Employee\\Create.cshtml",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Create.cshtml",
-              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Employee\\Create.cshtml",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-20T10:28:12.867Z",
-              "EditorCaption": ""
+              "Title": "IBANValidationAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\ViewModels\\Validation\\IBANValidationAttribute.cs",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\ViewModels\\Validation\\IBANValidationAttribute.cs",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\ViewModels\\Validation\\IBANValidationAttribute.cs",
+              "RelativeToolTip": "HumanCapitalManagementApp\\ViewModels\\Validation\\IBANValidationAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:04:58.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeCreateUpdateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\ViewModels\\EmployeeCreateUpdateViewModel.cs",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\ViewModels\\EmployeeCreateUpdateViewModel.cs",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\ViewModels\\EmployeeCreateUpdateViewModel.cs",
+              "RelativeToolTip": "HumanCapitalManagementApp\\ViewModels\\EmployeeCreateUpdateViewModel.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAIAwwFoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T14:23:26.727Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAABEAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAAKgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-20T10:29:03.404Z",
+              "WhenOpened": "2025-08-04T14:22:27.408Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "HumanCapitalManagementApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-04T14:17:19.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "custom-style.css",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\wwwroot\\css\\custom-style.css",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\wwwroot\\css\\custom-style.css",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\wwwroot\\css\\custom-style.css",
+              "RelativeToolTip": "HumanCapitalManagementApp\\wwwroot\\css\\custom-style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-04T14:16:47.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T14:16:27.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Employee\\Details.cshtml",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Employee\\Details.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAE8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T14:14:02.925Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "HumanCapitalManagementApp\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-20T10:29:50.868Z",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "HumanCapitalManagementApp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAjwFYAAABuAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:39:55.273Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Models\\Employee.cs",
+              "RelativeToolTip": "HumanCapitalManagementApp\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:38:25.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EncryptionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Utilities\\EncryptionHelper.cs",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Utilities\\EncryptionHelper.cs",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Utilities\\EncryptionHelper.cs",
+              "RelativeToolTip": "HumanCapitalManagementApp\\Utilities\\EncryptionHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:36:29.152Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "HumanCapitalManagementApp\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T10:35:46.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Program.cs",
-              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\Program.cs",
-              "ToolTip": "C:\\Users\\iwail\\Desktop\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\Program.cs",
-              "RelativeToolTip": "HumanCapitalManagementApp\\Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T10:21:26.307Z",
-              "EditorCaption": ""
+              "Title": "HumanCapitalManagementApp.csproj",
+              "DocumentMoniker": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj",
+              "RelativeDocumentMoniker": "HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj",
+              "ToolTip": "C:\\Users\\iwail\\Desktop\\UKG\\HumanCapitalManagementApp\\HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj",
+              "RelativeToolTip": "HumanCapitalManagementApp\\HumanCapitalManagementApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-04T13:35:52.027Z"
             }
           ]
         }

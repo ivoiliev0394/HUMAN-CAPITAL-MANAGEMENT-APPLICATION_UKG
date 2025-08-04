@@ -1,9 +1,11 @@
 ﻿using HumanCapitalManagementApp.Models;
 using HumanCapitalManagementApp.Services;
+using HumanCapitalManagementApp.Utilities;
 using HumanCapitalManagementApp.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics.Metrics;
 
 namespace HumanCapitalManagementApp.Controllers
 {
@@ -13,13 +15,16 @@ namespace HumanCapitalManagementApp.Controllers
     {
         private readonly EmployeeService _employeeService;
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly WorkingDaysService _workingDaysService;
 
-        // Injecting EmployeeService and UserManager for accessing employees and identity users
-        public EmployeeController(EmployeeService employeeService, UserManager<IdentityUser> userManager)
+        // Injecting EmployeeService, UserManager, and WorkingDaysService
+        public EmployeeController(EmployeeService employeeService, UserManager<IdentityUser> userManager, WorkingDaysService workingDaysService)
         {
             _employeeService = employeeService;
             _userManager = userManager;
+            _workingDaysService = workingDaysService;
         }
+
 
         // Redirect user to correct view based on their role
         public async Task<IActionResult> Index()
@@ -63,8 +68,28 @@ namespace HumanCapitalManagementApp.Controllers
             var userEmail = User.Identity!.Name!;
             var employee = await _employeeService.GetEmployeeByEmailAsync(userEmail);
             if (employee == null) return NotFound();
+
+            // Get working days using the API and CountryCode
+            var now = DateTime.Now;
+            int? workdays = await _workingDaysService.GetWorkingDaysAsync(employee.CountryCode, now.Year, now.Month);
+            ViewBag.Workdays = workdays;
+
             return View(employee);
         }
+
+        // Gets working days from external API based on selected year/month and redisplays profile
+        public async Task<IActionResult> UpdateWorkingDays(int id, int year, int month)
+        {
+            var employee = await _employeeService.GetEmployeeByIdAsync(id);
+            if (employee == null) return NotFound();
+
+            var workdays = await _workingDaysService.GetWorkingDaysAsync(employee.CountryCode, year, month);
+            ViewBag.Workdays = workdays;
+            ViewBag.SelectedYear = year;
+            ViewBag.SelectedMonth = month;
+            return View("Details", employee);
+        }
+
 
         // Managers and HR Admin can view any employee by ID
         [Authorize(Roles = "Manager, HR Admin")]
@@ -73,7 +98,15 @@ namespace HumanCapitalManagementApp.Controllers
         {
             var employee = await _employeeService.GetEmployeeByIdAsync(id);
             if (employee == null) return NotFound();
-            return View("Details", employee);
+
+            // Get working days using the API and CountryCode
+            var now = DateTime.Now;
+            int? workdays = await _workingDaysService.GetWorkingDaysAsync(employee.CountryCode, now.Year, now.Month);
+            ViewBag.Workdays = workdays;
+
+
+
+            return View("Details", employee); // Reuse the same Details view
         }
 
         // HR Admin can open the Create employee page
@@ -111,6 +144,9 @@ namespace HumanCapitalManagementApp.Controllers
                     EmployeeTypeId = vm.EmployeeTypeId,
                     Gender = vm.Gender,
                     Salary = vm.Salary,
+                    EncryptedIBAN = vm.IBAN,
+                    Country = vm.Country,
+                    CountryCode = vm.CountryCode,
                     Password = vm.Password
                 };
 
@@ -178,10 +214,13 @@ namespace HumanCapitalManagementApp.Controllers
                 DateOfBirth = employee.DateOfBirth,
                 EmployeeTypeId = employee.EmployeeTypeId,
                 Gender = employee.Gender,
+                Country = employee.Country,
+                CountryCode = employee.CountryCode,
                 Salary = employee.Salary,
                 Role = currentRole,
                 Roles = new List<string> { "Employee", "Manager", "HR Admin" },
                 Password = null, // Password remains blank on edit
+                IBAN = employee.EncryptedIBAN,
                 Departments = await _employeeService.GetDepartmentsAsync(),
                 EmployeeTypes = await _employeeService.GetEmployeeTypesAsync(),
                 Designations = await _employeeService.GetDesignationsByDepartmentAsync(employee.DepartmentId)
@@ -212,7 +251,10 @@ namespace HumanCapitalManagementApp.Controllers
                 employee.DateOfBirth = vm.DateOfBirth;
                 employee.EmployeeTypeId = vm.EmployeeTypeId;
                 employee.Gender = vm.Gender;
+                employee.Country = vm.Country;
+                employee.CountryCode = vm.CountryCode;
                 employee.Salary = vm.Salary;
+                employee.EncryptedIBAN = vm.IBAN;
 
                 // Update IdentityUser email
                 user.Email = vm.Email;

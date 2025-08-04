@@ -4,10 +4,14 @@
 @{
     // Set the page title
     ViewData["Title"] = "Employee Details";
+
+    int selectedYear = ViewBag.SelectedYear ?? DateTime.Now.Year;
+    int selectedMonth = ViewBag.SelectedMonth ?? DateTime.Now.Month;
 }
 
 <!-- Centered card layout to display employee details -->
-<div class="container mt-1">
+<div class="container mt-1" style="overflow-x: hidden;">
+    <!-- Prevent horizontal scroll -->
     <div class="row justify-content-center">
         <div class="col-lg-8 col-md-10">
             <div class="card shadow-sm border rounded">
@@ -40,19 +44,19 @@
                                 <!-- Designation -->
                                 <tr>
                                     <th class="text-muted">💼 Designation</th>
-                                    <td class="fw-semibold">@Model.Designation?.Name</td>
+                                    <td class="fw-bold text-dark text-start">@Model.Designation?.Name</td>
                                 </tr>
 
                                 <!-- Department -->
                                 <tr>
                                     <th class="text-muted">🏢 Department</th>
-                                    <td class="fw-semibold">@Model.Department?.Name</td>
+                                    <td class="fw-bold text-dark text-start">@Model.Department?.Name</td>
                                 </tr>
 
                                 <!-- Hire Date formatted -->
                                 <tr>
                                     <th class="text-muted">🗓️ Hire Date</th>
-                                    <td class="fw-semibold">
+                                    <td class="fw-bold text-dark text-start">
                                         @Model.HireDate.ToString("MMMM dd, yyyy", CultureInfo.InvariantCulture)
                                     </td>
                                 </tr>
@@ -60,28 +64,94 @@
                                 <!-- Date of Birth formatted -->
                                 <tr>
                                     <th class="text-muted">🎂 Date of Birth</th>
-                                    <td class="fw-semibold">
+                                    <td class="fw-bold text-dark text-start">
                                         @Model.DateOfBirth.ToString("MMMM dd, yyyy", CultureInfo.InvariantCulture)
+                                    </td>
+                                </tr>
+
+                                <!-- Display the number of working days for the current month and country -->
+                                <tr>
+                                    <th class="text-muted">📅 Month Working Days</th>
+                                    <td class="fw-bold text-dark text-start">
+                                        @(ViewBag.Workdays != null ? ViewBag.Workdays.ToString() : "N/A")
+
+                                        <!-- Inline Form to dynamically fetch working days -->
+                                        <form asp-action="UpdateWorkingDays" asp-controller="Employee" method="get" class="row row-cols-auto align-items-end g-2 mt-2">
+                                            <!-- Hidden field to pass employee ID -->
+                                            <input type="hidden" name="id" value="@Model.Id" />
+
+                                            <!-- Year Dropdown -->
+                                            <div class="col">
+                                                <label for="year" class="form-label mb-1">Select Year</label>
+                                                <select name="year" id="year" class="form-select form-select-sm">
+                                                    @for (int y = 1980; y <= DateTime.Now.Year; y++)
+                                                    {
+                                                        <option value="@y" selected="@(y == selectedYear ? "selected" : null)">@y</option>
+                                                    }
+
+                                                </select>
+                                            </div>
+
+                                            <!-- Month Dropdown -->
+                                            <div class="col">
+                                                <label for="month" class="form-label mb-1">Select Month</label>
+                                                <select name="month" id="month" class="form-select form-select-sm">
+                                                    @for (int m = 1; m <= 12; m++)
+                                                    {
+                                                        <option value="@m" selected="@(m == selectedMonth ? "selected" : null)">
+                                                            @CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(m)
+                                                        </option>
+                                                    }
+
+                                                </select>
+                                            </div>
+
+                                            <!-- Submit Button -->
+                                            <div class="col">
+                                                <button type="submit" class="btn btn-primary btn-sm rounded-pill px-3">
+                                                    <i class="bi bi-search"></i> Get Working Days
+                                                </button>
+                                            </div>
+                                        </form>
                                     </td>
                                 </tr>
 
                                 <!-- Employee Type -->
                                 <tr>
                                     <th class="text-muted">👔 Employee Type</th>
-                                    <td class="fw-semibold">@Model.EmployeeType?.Name</td>
+                                    <td class="fw-bold text-dark text-start">@Model.EmployeeType?.Name</td>
                                 </tr>
 
                                 <!-- Gender -->
                                 <tr>
                                     <th class="text-muted">⚧ Gender</th>
-                                    <td class="fw-semibold">@Model.Gender</td>
+                                    <td class="fw-bold text-dark text-start">@Model.Gender</td>
+                                </tr>
+
+                                <!-- Country -->
+                                <tr>
+                                    <th class="text-muted">🌍 Country:</th>
+                                    <td class="fw-bold text-dark text-start">@Model.Country</td>
+                                </tr>
+
+                                <!-- Country Code -->
+                                <tr>
+                                    <th class="text-muted">🏳️ Country Code:</th>
+                                    <td class="fw-bold text-dark text-start">@Model.CountryCode</td>
                                 </tr>
 
                                 <!-- Salary formatted -->
                                 <tr>
                                     <th class="text-muted">💰 Salary</th>
-                                    <td class="fw-semibold">$@Model.Salary.ToString("N2")</td>
+                                    <td class="fw-bold text-dark text-start">$@Model.Salary.ToString("N2")</td>
                                 </tr>
+
+                                <!-- Decrypted Iban -->
+                                <tr>
+                                    <th class="text-muted">🏦 IBAN</th>
+                                    <td class="fw-bold text-dark text-start">@Model.EncryptedIBAN</td>
+                                </tr>
+
                             </tbody>
                         </table>
                     </div>
@@ -111,5 +181,3 @@
         </div>
     </div>
 </div>
-
-

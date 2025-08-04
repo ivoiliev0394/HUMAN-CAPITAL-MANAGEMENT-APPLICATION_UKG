@@ -22,46 +22,82 @@
 
                     <!-- Display employee details in a simple table -->
                     <div class="table-responsive mb-4">
+                        <!-- Employee Details Table (Read-Only View) -->
                         <table class="table table-borderless">
                             <tbody>
+
+                                <!-- Employee Email Address -->
                                 <tr>
                                     <th class="text-muted text-start" style="width: 30%;">📧 Email:</th>
                                     <td class="fw-bold text-dark text-start">@Model.Email</td>
                                 </tr>
+
+                                <!-- Job Title (Designation) of the employee -->
                                 <tr>
                                     <th class="text-muted text-start">💼 Designation:</th>
                                     <td class="fw-bold text-dark text-start">@Model.Designation?.Name</td>
                                 </tr>
+
+                                <!-- Department where the employee works -->
                                 <tr>
                                     <th class="text-muted text-start">🏢 Department:</th>
                                     <td class="fw-bold text-dark text-start">@Model.Department?.Name</td>
                                 </tr>
+
+                                <!-- Hire date formatted as 'Month day, year' -->
                                 <tr>
                                     <th class="text-muted text-start">🗓️ Hire Date:</th>
                                     <td class="fw-bold text-dark text-start">
                                         @Model.HireDate.ToString("MMMM dd, yyyy", CultureInfo.InvariantCulture)
                                     </td>
                                 </tr>
+
+                                <!-- Birth date formatted as 'Month day, year' -->
                                 <tr>
                                     <th class="text-muted text-start">🎂 Date of Birth:</th>
                                     <td class="fw-bold text-dark text-start">
                                         @Model.DateOfBirth.ToString("MMMM dd, yyyy", CultureInfo.InvariantCulture)
                                     </td>
                                 </tr>
+
+                                <!-- Employee type (Permanent, Intern, Contract, etc.) -->
                                 <tr>
                                     <th class="text-muted text-start">👔 Employee Type:</th>
                                     <td class="fw-bold text-dark text-start">@Model.EmployeeType?.Name</td>
                                 </tr>
+
+                                <!-- Gender of the employee (Male/Female/Other) -->
                                 <tr>
                                     <th class="text-muted text-start">⚧ Gender:</th>
                                     <td class="fw-bold text-dark text-start">@Model.Gender</td>
                                 </tr>
+
+                                <!-- Country of the employee (e.g., Bulgaria) -->
+                                <tr>
+                                    <th class="text-muted text-start">🌍 Country:</th>
+                                    <td class="fw-bold text-dark text-start">@Model.Country</td>
+                                </tr>
+
+                                <!-- Two-letter lowercase ISO code used for APIs (e.g., 'bg') -->
+                                <tr>
+                                    <th class="text-muted text-start">🏳️ Country Code:</th>
+                                    <td class="fw-bold text-dark text-start">@Model.CountryCode</td>
+                                </tr>
+
+                                <!-- Monthly or annual salary in dollars, formatted to 2 decimals -->
                                 <tr>
                                     <th class="text-muted text-start">💰 Salary:</th>
                                     <td class="fw-bold text-dark text-start">$@Model.Salary.ToString("N2")</td>
                                 </tr>
+
+                                <!-- Decrypted Iban -->
+                                <tr>
+                                    <th class="text-muted">🏦 IBAN</th>
+                                    <td class="fw-bold text-dark text-start">@Model.EncryptedIBAN</td>
+                                </tr>
                             </tbody>
                         </table>
+
                     </div>
 
                     <!-- Form for Delete Confirmation -->

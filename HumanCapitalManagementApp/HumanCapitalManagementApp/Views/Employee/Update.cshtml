@@ -131,6 +131,27 @@
                             </div>
                         </div>
 
+                        <!-- Country -->
+                        <div class="row mb-3">
+                            <label asp-for="Country" class="col-sm-3 col-form-label text-end"></label>
+                            <div class="col-sm-9">
+                                <!-- Input for the full country name (e.g., Bulgaria) -->
+                                <input asp-for="Country" class="form-control" placeholder="Enter country (e.g., Bulgaria)" />
+                                <span asp-validation-for="Country" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Country Code -->
+                        <div class="row mb-3">
+                            <label asp-for="CountryCode" class="col-sm-3 col-form-label text-end"></label>
+                            <div class="col-sm-9">
+                                <!-- Input for the ISO country code (e.g., bg) used for external APIs -->
+                                <input asp-for="CountryCode" class="form-control" placeholder="Enter country code (e.g., bg)" />
+                                <span asp-validation-for="CountryCode" class="text-danger"></span>
+                            </div>
+                        </div>
+
+
                         <!-- Salary -->
                         <div class="row mb-3">
                             <label asp-for="Salary" class="col-sm-3 col-form-label text-end"></label>
@@ -139,6 +160,16 @@
                                 <span asp-validation-for="Salary" class="text-danger"></span>
                             </div>
                         </div>
+
+                        <!-- IBAN input field in the employee create/edit forms -->
+                        <div class="row mb-3">
+                            <label asp-for="IBAN" class="col-sm-3 col-form-label text-end">IBAN</label>
+                            <div class="col-sm-9">
+                                <input asp-for="IBAN" class="form-control" placeholder="Leave blank to keep current IBAN" />
+                                <span asp-validation-for="IBAN" class="text-danger"></span>
+                            </div>
+                        </div>
+
 
                         <!-- Action Buttons -->
                         <div class="text-center mt-4">

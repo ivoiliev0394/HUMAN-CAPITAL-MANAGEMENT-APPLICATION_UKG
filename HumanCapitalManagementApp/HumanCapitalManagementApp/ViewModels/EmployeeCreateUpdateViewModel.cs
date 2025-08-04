@@ -1,4 +1,5 @@
 ﻿using HumanCapitalManagementApp.Models;
+using HumanCapitalManagementApp.ViewModels.Validation;
 using System.ComponentModel.DataAnnotations;
 
 namespace HumanCapitalManagementApp.ViewModels
@@ -66,10 +67,29 @@ namespace HumanCapitalManagementApp.ViewModels
         [Required(ErrorMessage = "Gender is required")]
         public string Gender { get; set; } = null!;
 
+        // Country name of the employee (e.g., Bulgaria)
+        [Display(Name = "Country")]
+        [Required(ErrorMessage = "Country is required")]
+        [StringLength(50, ErrorMessage = "Country name must be under 50 characters")]
+        public string Country { get; set; } = null!;
+
+        // Country code used for external APIs (e.g., bg)
+        [Display(Name = "Country Code")]
+        [Required(ErrorMessage = "Country Code is required")]
+        [StringLength(2, ErrorMessage = "Country code must be exactly 2 lowercase letters")]
+        [RegularExpression("^[a-z]{2}$", ErrorMessage = "Country Code must be 2 lowercase letters (e.g., 'bg')")]
+        public string CountryCode { get; set; } = null!;
+
         // Salary field with positive value restriction
         [Required(ErrorMessage = "Salary is required")]
         [Range(0, double.MaxValue)]
         public decimal Salary { get; set; }
+
+        // IBAN field with validation
+        [Display(Name = "IBAN")]
+        [Required(ErrorMessage = "IBAN is required")]
+        [IBANValidation] // ще създадем тази атрибуция по-долу
+        public string IBAN { get; set; } = null!;
 
         // Lists for dropdown menus (Departments, Designations, EmployeeTypes)
         public List<Department>? Departments { get; set; }
